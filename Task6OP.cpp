@@ -8,12 +8,26 @@ void print_N();
 void gotoxy(int x, int y);
 
 main(){
+int x = 0, y = 0;
+system("cls");
+gotoxy(x,y);
 print_H();
+y = y + 10;
+gotoxy(x,y);
 print_A();
+y = y + 10;
+gotoxy(x,y);
 print_S();
+y = y + 10;
+gotoxy(x,y);
 print_S();
+y = y + 10;
+gotoxy(x,y);
 print_A();
+y = y + 10;
+gotoxy(x,y);
 print_N();
+
 }
 void print_H(){
 
@@ -26,7 +40,6 @@ cout<<"##         ##"<<endl;
 cout<<"##         ##"<<endl;
 cout<<"##         ##"<<endl;
 cout<<"##         ##"<<endl;
-cout<<"                "<<endl;
 
 
 }
@@ -42,7 +55,6 @@ cout<<" ##     ## "<<endl;
 cout<<" ##     ## "<<endl;
 cout<<" ##     ## "<<endl;
 cout<<" ##     ## "<<endl;
-cout<<"                "<<endl;
 
 }
 
@@ -58,7 +70,6 @@ cout<<"           ##  "<<endl;
 cout<<"          ##   "<<endl;
 cout<<"    ######     "<<endl;
 
-cout<<"                "<<endl;
 }
 void print_N(){
 
@@ -69,7 +80,6 @@ cout<<"  ##   ##   ##"<<endl;
 cout<<"  ##    ##  ##"<<endl;
 cout<<"  ##     ## ##"<<endl;
 cout<<"  ##      # ##"<<endl;
-cout<<"                "<<endl;
 }
 
 void gotoxy(int x, int y){
